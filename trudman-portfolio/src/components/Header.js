@@ -20,7 +20,7 @@ const Header = () => {
       </Navbar.Brand>
       <Nav className="justify-content-end">
         <Nav.Link
-          href="#"
+          href="/about"
           style={{
             fontSize: "20px",
             fontWeight: "bold",
@@ -28,7 +28,7 @@ const Header = () => {
           About Me
         </Nav.Link>
         <Nav.Link
-          href="#"
+          href="/project"
           style={{
             fontSize: "20px",
             fontWeight: "bold",
