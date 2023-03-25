@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -11,6 +11,9 @@ const Footer = () => {
         </a>
         <a href="https://github.com/trudman" target="_blank" rel="noopener noreferrer" className="text-light mx-3">
           <FaGithub size={32} />
+        </a>
+        <a href="mailto:tyler.rudman@gmail.com" className="text-light mx-3">
+          <FaEnvelope size={32} />
         </a>
       </div>
       <div className="text-center mt-3">
