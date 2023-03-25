@@ -18,13 +18,12 @@ const Header = () => {
           style={{ margin: "0 10px" }}
         />
       </Navbar.Brand>
-      <Nav className="ml-auto justify-content-end" style={{ marginRight: "20px" }}>
+      <Nav className="justify-content-end">
         <Nav.Link
           href="#"
           style={{
             fontSize: "20px",
             fontWeight: "bold",
-            ":hover": { color: "white", textDecoration: "none" },
           }}>
           About Me
         </Nav.Link>
@@ -33,7 +32,6 @@ const Header = () => {
           style={{
             fontSize: "20px",
             fontWeight: "bold",
-            ":hover": { color: "white", textDecoration: "none" },
           }}>
           Portfolio
         </Nav.Link>
@@ -42,7 +40,6 @@ const Header = () => {
           style={{
             fontSize: "20px",
             fontWeight: "bold",
-            ":hover": { color: "white", textDecoration: "none" },
           }}>
           Contact
         </Nav.Link>
@@ -51,7 +48,6 @@ const Header = () => {
           style={{
             fontSize: "20px",
             fontWeight: "bold",
-            ":hover": { color: "white", textDecoration: "none" },
           }}>
           Resume
         </Nav.Link>
