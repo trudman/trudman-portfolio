@@ -3,7 +3,7 @@ import Header from "./Header";
 import AboutMe from "./AboutMe";
 import Footer from "./Footer";
 import Banner from "./Banner";
-
+import Project from "./Project";
 
 const PortfolioContainer = () => {
   return (
@@ -11,6 +11,7 @@ const PortfolioContainer = () => {
       <Header />
       <Banner />
       <AboutMe />
+      <Project />
       <Footer />
     </main>
   );

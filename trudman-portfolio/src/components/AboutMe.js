@@ -4,7 +4,7 @@ import profilePicture from "./images/IMG_0652.jpeg";
 
 const AboutMe = () => {
   return (
-    <Container>
+    <Container className="mt-5">
       <Row>
         <Col md={4}>
           <img
@@ -15,7 +15,7 @@ const AboutMe = () => {
           />
         </Col>
         <Col md={8}>
-          <h2>About Me</h2>
+          <h2 className="text-center">About Me</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Suspendisse in est ante in nibh mauris
