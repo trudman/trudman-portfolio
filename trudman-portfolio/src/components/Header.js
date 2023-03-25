@@ -4,7 +4,10 @@ import portfolioPicture from "./images/TR.jpeg";
 
 const Header = () => {
   return (
-    <Navbar fixed="top" expand="lg" style={{ backgroundColor: "transparent" }}>
+    <Navbar
+      fixed="top"
+      expand="lg"
+      style={{ backgroundColor: "transparent", backdropFilter: "blur(4px)" }}>
       <Navbar.Brand href="/">
         <img
           src={portfolioPicture}
@@ -15,10 +18,43 @@ const Header = () => {
           style={{ margin: "0 10px" }}
         />
       </Navbar.Brand>
-      <Nav className="ml-auto justify-content-end" style={{ marginRight: '10px' }}>
-        <Nav.Link href="#">Home</Nav.Link>
-        <Nav.Link href="#">About</Nav.Link>
-        <Nav.Link href="#">Contact</Nav.Link>
+      <Nav className="ml-auto justify-content-end" style={{ marginRight: "20px" }}>
+        <Nav.Link
+          href="#"
+          style={{
+            fontSize: "20px",
+            fontWeight: "bold",
+            ":hover": { color: "white", textDecoration: "none" },
+          }}>
+          About Me
+        </Nav.Link>
+        <Nav.Link
+          href="#"
+          style={{
+            fontSize: "20px",
+            fontWeight: "bold",
+            ":hover": { color: "white", textDecoration: "none" },
+          }}>
+          Portfolio
+        </Nav.Link>
+        <Nav.Link
+          href="#"
+          style={{
+            fontSize: "20px",
+            fontWeight: "bold",
+            ":hover": { color: "white", textDecoration: "none" },
+          }}>
+          Contact
+        </Nav.Link>
+        <Nav.Link
+          href="#"
+          style={{
+            fontSize: "20px",
+            fontWeight: "bold",
+            ":hover": { color: "white", textDecoration: "none" },
+          }}>
+          Resume
+        </Nav.Link>
       </Nav>
     </Navbar>
   );
