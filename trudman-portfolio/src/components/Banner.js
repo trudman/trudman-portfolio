@@ -1,6 +1,6 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import bannerImage from './images/banner.jpg';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import bannerImage from "./images/banner.jpg";
 
 const Banner = () => {
   return (
@@ -8,7 +8,12 @@ const Banner = () => {
       <Row noGutters>
         <Col>
           <div style={{ position: "relative" }}>
-            <img src={bannerImage} alt="Banner" className="img-fluid" style={{ width: "100%", height: "500px" }} />
+            <img
+              src={bannerImage}
+              alt="Banner"
+              className="img-fluid"
+              style={{ width: "100%", height: "500px" }}
+            />
             <div
               style={{
                 position: "absolute",
@@ -19,8 +24,7 @@ const Banner = () => {
                 fontWeight: "bold",
                 color: "white",
                 textShadow: "2px 2px #000",
-              }}
-            >
+              }}>
               Tyler Rudman
             </div>
           </div>
