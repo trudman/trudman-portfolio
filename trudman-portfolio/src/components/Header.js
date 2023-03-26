@@ -36,7 +36,7 @@ const Header = () => {
           Portfolio
         </Nav.Link>
         <Nav.Link
-          href="#"
+          href={`mailto:tyler.rudman@gmail.com`}
           style={{
             fontSize: "20px",
             fontWeight: "bold",
@@ -44,7 +44,9 @@ const Header = () => {
           Contact
         </Nav.Link>
         <Nav.Link
-          href="#"
+          href="https://docs.google.com/document/d/1LIYh5niK_jV8FDy6X3JiFKgg-QdqDhMhZaD3_V2oHPU/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{
             fontSize: "20px",
             fontWeight: "bold",
