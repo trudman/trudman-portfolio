@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trudman-portfolio/static/css/main.44f8b8b5.css",
-    "main.js": "/trudman-portfolio/static/js/main.c5250552.js",
+    "main.js": "/trudman-portfolio/static/js/main.f51ec31a.js",
     "static/js/787.d11219df.chunk.js": "/trudman-portfolio/static/js/787.d11219df.chunk.js",
     "static/media/movie.png": "/trudman-portfolio/static/media/movie.7c62ebf2faa00a7455fe.png",
     "static/media/IMG_0652.jpeg": "/trudman-portfolio/static/media/IMG_0652.5c00b52fdde9b8bf666c.jpeg",
@@ -11,11 +11,11 @@
     "static/media/travel.png": "/trudman-portfolio/static/media/travel.810e2c392d8e6ea2383e.png",
     "index.html": "/trudman-portfolio/index.html",
     "main.44f8b8b5.css.map": "/trudman-portfolio/static/css/main.44f8b8b5.css.map",
-    "main.c5250552.js.map": "/trudman-portfolio/static/js/main.c5250552.js.map",
+    "main.f51ec31a.js.map": "/trudman-portfolio/static/js/main.f51ec31a.js.map",
     "787.d11219df.chunk.js.map": "/trudman-portfolio/static/js/787.d11219df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44f8b8b5.css",
-    "static/js/main.c5250552.js"
+    "static/js/main.f51ec31a.js"
   ]
 }
