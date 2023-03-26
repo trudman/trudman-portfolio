@@ -12,7 +12,7 @@ const Banner = () => {
               src={bannerImage}
               alt="Banner"
               className="img-fluid"
-              style={{ width: "100%", height: "500px" }}
+              style={{ width: "100%", height: "540px" }}
             />
             <div
               style={{
