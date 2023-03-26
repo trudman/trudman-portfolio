@@ -22,8 +22,7 @@ const Project = () => {
             <div className="card-body">
               <h5 className="card-title text-center">Movie Director Search Engine</h5>
               <p className="card-text text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
+                Movie director search engine using the OMDB API and Wikipedia API.
               </p>
             </div>
           </div>
@@ -41,8 +40,8 @@ const Project = () => {
             <div className="card-body">
               <h5 className="card-title text-center">Travel Blog</h5>
               <p className="card-text text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
+                Application for travelers and vacation seekers to blog about locations they have
+                visited.
               </p>
             </div>
           </div>
@@ -60,8 +59,7 @@ const Project = () => {
             <div className="card-body">
               <h5 className="card-title text-center">(ORM): E-Commerce Back End</h5>
               <p className="card-text text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
+                Object-Relational Mapping (ORM): E-Commerce Back End application using MySQL.
               </p>
             </div>
           </div>
@@ -78,10 +76,7 @@ const Project = () => {
             </a>
             <div className="card-body">
               <h5 className="card-title text-center">NoSQL: Social Network API</h5>
-              <p className="card-text text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
-              </p>
+              <p className="card-text text-center">NoSQL Social Network API using MongoDB.</p>
             </div>
           </div>
         </div>
