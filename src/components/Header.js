@@ -39,7 +39,9 @@ const Header = () => {
             Portfolio
           </Nav.Link>
           <Nav.Link
-            href={`mailto:tyler.rudman@gmail.com`}
+            // href={`mailto:tyler.rudman@gmail.com`}
+            as={Link}
+            to="/contact"
             className="nav-link"
             style={{ fontSize: "20px", fontWeight: "bold" }}>
             Contact
