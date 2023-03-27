@@ -1,0 +1,16 @@
+.navbar-dark .nav-link {
+  color: #000;
+  font-weight: normal;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #8589a3;
+  }
+}

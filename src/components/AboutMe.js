@@ -10,8 +10,8 @@ const AboutMe = () => {
           <img
             src={profilePicture}
             alt="My Profile"
-            className="img-fluid rounded-pill shadow-sm"
-            style={{ borderRadius: "10px" }}
+            className="img-fluid rounded-pill"
+            style={{ borderRadius: "50%", boxShadow: "0px 0px 10px #888888" }}
           />
         </Col>
         <Col md={8}>

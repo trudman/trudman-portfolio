@@ -2,12 +2,14 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import portfolioPicture from "./images/TR.jpeg";
+import "./styles.css";
 
 const Header = () => {
   return (
     <Navbar
       fixed="top"
       expand="lg"
+      className="navbar-dark"
       style={{ backgroundColor: "transparent", backdropFilter: "blur(4px)" }}>
       <Navbar.Brand as={Link} to="/">
         <img
@@ -22,14 +24,23 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link as={Link} to="/about" style={{ fontSize: "20px", fontWeight: "bold" }}>
+          <Nav.Link
+            as={Link}
+            to="/about"
+            className="nav-link"
+            style={{ fontSize: "20px", fontWeight: "bold" }}>
             About Me
           </Nav.Link>
-          <Nav.Link as={Link} to="/project" style={{ fontSize: "20px", fontWeight: "bold" }}>
+          <Nav.Link
+            as={Link}
+            to="/project"
+            className="nav-link"
+            style={{ fontSize: "20px", fontWeight: "bold" }}>
             Portfolio
           </Nav.Link>
           <Nav.Link
             href={`mailto:tyler.rudman@gmail.com`}
+            className="nav-link"
             style={{ fontSize: "20px", fontWeight: "bold" }}>
             Contact
           </Nav.Link>
@@ -37,6 +48,7 @@ const Header = () => {
             href="https://docs.google.com/document/d/1LIYh5niK_jV8FDy6X3JiFKgg-QdqDhMhZaD3_V2oHPU/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
+            className="nav-link"
             style={{ fontSize: "20px", fontWeight: "bold" }}>
             Resume
           </Nav.Link>

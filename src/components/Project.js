@@ -1,13 +1,15 @@
 import React from "react";
-import movieImg from "./images/movie.png";
-import travelImg from "./images/travel.png";
+import movieImg from "./images/movie.jpg";
+import travelImg from "./images/travel.jpg";
 import databaseImg from "./images/database.jpg";
 import socialImg from "./images/social.jpg";
 
 const Project = () => {
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-5">Projects</h2>
+      <h2 className="text-center mb-5" style={{ fontSize: "3rem" }}>
+        Portfolio
+      </h2>
       <div className="row">
         <div className="col-md-6 mb-5">
           <div className="card h-100">
