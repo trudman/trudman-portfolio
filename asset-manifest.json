@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/trudman-portfolio/static/css/main.fee90e2e.css",
-    "main.js": "/trudman-portfolio/static/js/main.6190d5be.js",
+    "main.js": "/trudman-portfolio/static/js/main.b35a2b8c.js",
     "static/js/787.d11219df.chunk.js": "/trudman-portfolio/static/js/787.d11219df.chunk.js",
     "static/media/movie.jpg": "/trudman-portfolio/static/media/movie.6391c85bbd561798288d.jpg",
+    "static/media/contact.jpg": "/trudman-portfolio/static/media/contact.49fdfd32818b6cf9657f.jpg",
     "static/media/travel.jpg": "/trudman-portfolio/static/media/travel.1bedd43fb45e5f544a4c.jpg",
     "static/media/IMG_0652.jpeg": "/trudman-portfolio/static/media/IMG_0652.5c00b52fdde9b8bf666c.jpeg",
     "static/media/banner.jpg": "/trudman-portfolio/static/media/banner.45478345176f837c2582.jpg",
@@ -11,11 +12,11 @@
     "static/media/database.jpg": "/trudman-portfolio/static/media/database.63181f58e53fe05a77af.jpg",
     "index.html": "/trudman-portfolio/index.html",
     "main.fee90e2e.css.map": "/trudman-portfolio/static/css/main.fee90e2e.css.map",
-    "main.6190d5be.js.map": "/trudman-portfolio/static/js/main.6190d5be.js.map",
+    "main.b35a2b8c.js.map": "/trudman-portfolio/static/js/main.b35a2b8c.js.map",
     "787.d11219df.chunk.js.map": "/trudman-portfolio/static/js/787.d11219df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fee90e2e.css",
-    "static/js/main.6190d5be.js"
+    "static/js/main.b35a2b8c.js"
   ]
 }
