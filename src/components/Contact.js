@@ -4,6 +4,8 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "./styles.css";
 
+import contactImage from "./images/contact.jpg";
+
 function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -19,11 +21,14 @@ function Contact() {
 
   return (
     <div className="d-flex justify-content-center align-items-center vh-100">
-      <Card style={{ width: "40rem" }}>
+      <Card style={{ width: "40rem", backgroundColor: "#F8F9FA" }}>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <Card.Img
+            src={contactImage}
+            style={{ width: "100%", height: "300px", objectFit: "cover" }}
+          />
+        </div>
         <Card.Body>
-          <Card.Title className="mb-4 text-center" style={{ fontSize: "2rem" }}>
-            Contact Me
-          </Card.Title>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formBasicName">
               <Form.Label>Name</Form.Label>
